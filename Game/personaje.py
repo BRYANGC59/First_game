@@ -10,8 +10,8 @@ class Personaje:
         self.size = 20
         self.inventario = {"Gemas": 0}
 
-    def draw(self, screen):
-        pygame.draw.rect(screen, constantes.WHITE, (self.x,self.y, self.size, self.size))
+    def draw(self, ventana):
+        pygame.draw.rect(ventana, constantes.WHITE, (self.x,self.y, self.size, self.size))
 
     def movimientos(self, mx, my):
         self.x += mx

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="movimientos del personaje en la ventana">
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana">
+      <change afterPath="$PROJECT_DIR$/Game/elementos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/constantes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/juego.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/juego.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/mundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/mundo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/personaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/personaje.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743991977338</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana">
+      <option name="closed" value="true" />
+      <created>1743993442836</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743993442836</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,17 +171,7 @@
     <MESSAGE value="completacion del metodo main, se le añadio el ciclo principal" />
     <MESSAGE value="dibujando el mundo y el personaje en la variable ventana" />
     <MESSAGE value="movimientos del personaje en la ventana" />
-    <option name="LAST_COMMIT_MESSAGE" value="movimientos del personaje en la ventana" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Game/juego.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana" />
   </component>
 </project>
