@@ -16,7 +16,7 @@ class Mundo:
                                 random.randint(0, alto-40)) for _ in range(10)]
 
 
-        cesped_path = os.path.join("recursos", "imagenes", "personajes", "fondo3.png")
+        cesped_path = os.path.join("recursos", "imagenes", "personajes", "fondo4.png")
         self.cesped_image = pygame.image.load(cesped_path).convert()
         self.cesped_image = pygame.transform.scale(self.cesped_image,
                                                    (constantes.CESPED, constantes.CESPED))

@@ -1,7 +1,8 @@
 #Tamaños
 ANCHO, ALTO  = 800, 600
 PERSONAJE = 50
-CESPED = 500
+CESPED = 400
+ARBOL = 64
 #Colores
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)

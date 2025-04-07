@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="primer personaje: caballeros">
-      <change afterPath="$PROJECT_DIR$/Game/recursos/imagenes/objetos/fondo2.png" afterDir="false" />
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="insertar fondo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/constantes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/elementos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/elementos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/mundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/mundo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/personaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/personaje.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +56,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "import__images",
-    "last_opened_file_path": "C:/Users/kenner/Downloads/car-rental-challenge/First_game/Game/recursos/imagenes/objetos",
+    "last_opened_file_path": "C:/Users/kenner/Downloads/car-rental-challenge/First_game/Game/recursos/imagenes/personajes",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\Game\recursos\imagenes\personajes" />
       <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\Game\recursos\imagenes\objetos" />
       <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\recursos\imagenes\personajes" />
       <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\recursos\imagenes\objetos" />
@@ -206,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744004580486</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="insertar fondo">
+      <option name="closed" value="true" />
+      <created>1744011527500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744011527500</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +251,7 @@
     <MESSAGE value="Creacion del archivo elementos.py&#10;y clase enemigos" />
     <MESSAGE value="creacion de carpetas recursos /  imagenes / personaes" />
     <MESSAGE value="primer personaje: caballeros" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer personaje: caballeros" />
+    <MESSAGE value="insertar fondo" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertar fondo" />
   </component>
 </project>
