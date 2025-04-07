@@ -5,7 +5,7 @@ import pygame
 
 
 import constantes
-from elementos import Enemigo
+from elementos import Enemigo, Roca
 
 
 class Mundo:
@@ -14,6 +14,8 @@ class Mundo:
         self.alto = alto
         self.enemigo = [Enemigo(random.randint(0, ancho-40),
                                 random.randint(0, alto-40)) for _ in range(10)]
+        self.Roca = [Roca(random.randint(0, ancho - constantes.ROCA),
+                                random.randint(0, alto - constantes.ROCA)) for _ in range(11)]
 
 
         cesped_path = os.path.join("recursos", "imagenes", "personajes", "fondo4.png")
@@ -31,3 +33,6 @@ class Mundo:
 
         for enemigo in self.enemigo:
             enemigo.draw(ventana)
+
+        for Roca in self.Roca:
+            Roca.draw(ventana)
