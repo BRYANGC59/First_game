@@ -8,7 +8,7 @@ from personaje import Personaje
 #Inicializar el juego
 pygame.init()
 
-ventana = pygame.display.set.mode((constantes.ANCHO, constantes.ALTO))
+ventana = pygame.display.set_mode((constantes.ANCHO, constantes.ALTO))
 pygame.display.set_caption("First Game")
 
 def main():
@@ -21,3 +21,12 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
+
+        keys = pygame.key.get_pressed()
+
+        mundo.draw(ventana)
+        personaje.draw(ventana)
+        pygame.display.flip()
+
+if __name__ == "__main__":
+    main()
