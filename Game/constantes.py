@@ -1,6 +1,6 @@
 #Tamaños
 ANCHO, ALTO  = 800, 600
-
+PERSONAJE = 40
 #Colores
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
