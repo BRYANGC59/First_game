@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="Creacion de archivo personaje.">
-      <change afterPath="$PROJECT_DIR$/Game/mundo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/libreria_pygames.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/libreria_pygames.py" afterDir="false" />
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="Metodo main en archivo juego">
+      <change beforePath="$PROJECT_DIR$/Game/juego.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/juego.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +78,42 @@
       <option name="project" value="LOCAL" />
       <updated>1743990024453</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creacion de archivo mundo&#10;con su pantalla">
+      <option name="closed" value="true" />
+      <created>1743990727630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743990727631</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Metodo main en archivo juego">
+      <option name="closed" value="true" />
+      <created>1743990778231</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743990778231</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de ambiente" />
     <MESSAGE value="Configuracion ventana en pytest" />
     <MESSAGE value="Creacion de archivo personaje." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de archivo personaje." />
+    <MESSAGE value="Creacion de archivo mundo&#10;con su pantalla" />
+    <MESSAGE value="Metodo main en archivo juego" />
+    <option name="LAST_COMMIT_MESSAGE" value="Metodo main en archivo juego" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Game/juego.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

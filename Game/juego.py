@@ -14,4 +14,10 @@ pygame.display.set_caption("First Game")
 def main():
     clock = pygame.time.Clock()
     mundo = Mundo(constantes.ANCHO, constantes.ALTO)
-    personaje =
+    personaje = Personaje(constantes.ANCHO // 2, constantes.ALTO // 2)
+
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
