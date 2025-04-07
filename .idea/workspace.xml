@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="insertar fondo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/constantes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/elementos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/elementos.py" afterDir="false" />
-    </list>
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="creacion de enemigo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -212,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744011527500</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="creacion de enemigo">
+      <option name="closed" value="true" />
+      <created>1744012974163</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744012974163</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +256,7 @@
     <MESSAGE value="creacion de carpetas recursos /  imagenes / personaes" />
     <MESSAGE value="primer personaje: caballeros" />
     <MESSAGE value="insertar fondo" />
-    <option name="LAST_COMMIT_MESSAGE" value="insertar fondo" />
+    <MESSAGE value="creacion de enemigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de enemigo" />
   </component>
 </project>
