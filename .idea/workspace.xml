@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana">
-      <change afterPath="$PROJECT_DIR$/Game/elementos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursos/imagenes/objetos/fondo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Game_proyecto_poo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Game_proyecto_poo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/mundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/mundo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/personaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/personaje.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kennermeza"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BRYANGC59/First_game.git",
+    "accountId": "9c57e372-e374-4da8-a082-0b442a8b7fa7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vNalgYbDov7BTj8dw5onSDc9DL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,9 +51,16 @@
     "Python.juego.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/kenner/Downloads/car-rental-challenge/First_game/recursos/imagenes/personajes"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\recursos\imagenes\personajes" />
+      <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\recursos\imagenes\objetos" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="juego" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Game_proyecto_poo" />
@@ -74,7 +93,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
