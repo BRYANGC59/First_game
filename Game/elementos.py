@@ -5,6 +5,7 @@ import pygame
 import constantes
 
 
+
 class Enemigo:
     def __init__(self, x, y):
         self.x = x
