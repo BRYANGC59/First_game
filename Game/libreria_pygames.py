@@ -1,9 +1,10 @@
-import pygames
-pygames sys
+import sys
+
+import pygame
 import constantes
 
 #Inicializar el juego
-pygames.init()
+pygame.init()
 
-ventana = pygames.display.set.mode((constantes.ANCHO, constantes.ALTO))
-pygames.display.set_caption("First Game")
+ventana = pygame.display.set.mode((constantes.ANCHO, constantes.ALTO))
+pygame.display.set_caption("First Game")
