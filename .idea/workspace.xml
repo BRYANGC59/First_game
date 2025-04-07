@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="completacion del metodo main, se le añadio el ciclo principal">
-      <change beforePath="$PROJECT_DIR$/Game/juego.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/juego.py" afterDir="false" />
-    </list>
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="dibujando el mundo y el personaje en la variable ventana" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743991222992</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dibujando el mundo y el personaje en la variable ventana">
+      <option name="closed" value="true" />
+      <created>1743991705409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743991705409</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,15 +148,16 @@
     <MESSAGE value="Creacion de archivo mundo&#10;con su pantalla" />
     <MESSAGE value="Metodo main en archivo juego" />
     <MESSAGE value="completacion del metodo main, se le añadio el ciclo principal" />
-    <option name="LAST_COMMIT_MESSAGE" value="completacion del metodo main, se le añadio el ciclo principal" />
+    <MESSAGE value="dibujando el mundo y el personaje en la variable ventana" />
+    <option name="LAST_COMMIT_MESSAGE" value="dibujando el mundo y el personaje en la variable ventana" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Game/juego.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
+          <line>30</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

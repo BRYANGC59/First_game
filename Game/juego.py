@@ -23,6 +23,14 @@ def main():
                 sys.exit()
 
         keys = pygame.key.get_pressed()
+        if keys[pygame.K_LEFT]:
+            personaje.movimientos(-5, 0)
+        if keys[pygame.K_RIGHT]:
+            personaje.movimientos(5, 0)
+        if keys[pygame.K_UP]:
+            personaje.movimientos(0, -5)
+        if keys[pygame.K_DOWN]:
+            personaje.movimientos(0, 5)
 
         mundo.draw(ventana)
         personaje.draw(ventana)

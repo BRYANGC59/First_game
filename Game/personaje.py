@@ -12,6 +12,6 @@ class Personaje:
     def draw(self, screen):
         pygame.draw.rect(screen, constantes.BLUE, (self.x,self.y, self.size, self.size))
 
-    def movimiento(self, mx, my):
+    def movimientos(self, mx, my):
         self.x += mx
         self.y += my
