@@ -9,7 +9,7 @@ from elementos import Enemigo, Roca
 
 
 class Mundo:
-    def __init__(self, ancho, alto):
+    def __init__(self,  ancho, alto,):
         self.ancho = ancho
         self.alto = alto
         self.enemigo = [Enemigo(random.randint(0, ancho-40),

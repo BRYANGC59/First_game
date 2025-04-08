@@ -14,9 +14,9 @@ class Enemigo:
         self.y = y
         self.gemas = random.randint(1,3)
 
-        arbol_paht = os.path.join("recursos", "imagenes", "personajes", "echisera.png")
-        self.image = pygame.image.load(arbol_paht).convert_alpha()
-        self.image = pygame.transform.scale(self.image, (constantes.ARBOL, constantes.ARBOL ))
+        arbol = os.path.join("recursos", "imagenes", "personajes", "echisera.png")
+        self.image = pygame.image.load(arbol).convert_alpha()
+        self.image = pygame.transform.scale(self.image, (constantes.ARBOL, constantes.ARBOL))
         self.size = self.image.get_width()
 
     def draw(self, ventana):

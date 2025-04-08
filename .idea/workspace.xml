@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="creacion de enemigo">
-      <change afterPath="$PROJECT_DIR$/Game/recursos/imagenes/personajes/roca.png" afterDir="false" />
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="INSERTAR ROCA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/constantes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/elementos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/elementos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/juego.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/juego.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/mundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/mundo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/personaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/personaje.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744013530368</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="INSERTAR ROCA">
+      <option name="closed" value="true" />
+      <created>1744059251441</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744059251441</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +279,7 @@
     <MESSAGE value="primer personaje: caballeros" />
     <MESSAGE value="insertar fondo" />
     <MESSAGE value="creacion de enemigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de enemigo" />
+    <MESSAGE value="INSERTAR ROCA" />
+    <option name="LAST_COMMIT_MESSAGE" value="INSERTAR ROCA" />
   </component>
 </project>
