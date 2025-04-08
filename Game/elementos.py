@@ -4,13 +4,36 @@ import pygame
 
 import constantes
 
+import os
+
+
 
 class Enemigo:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        self.size = 20
         self.gemas = random.randint(1,3)
 
+        Enemigo = os.path.join("recursos", "imagenes", "personajes", "echisera.png")
+        self.image = pygame.image.load(Enemigo).convert_alpha()
+        self.image = pygame.transform.scale(self.image, (constantes.ENEMIGO, constantes.ENEMIGO))
+        self.size = self.image.get_width()
+
     def draw(self, ventana):
-        pygame.draw.rect(ventana, constantes.BLUE,(self.x, self.y, self.size, self.size))
+        ventana.blit(self.image, (self.x, self.y))
+
+class Roca:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        self.roca = 1
+
+        roca_paht = os.path.join("recursos", "imagenes", "personajes", "roca.png")
+        self.image = pygame.image.load(roca_paht).convert_alpha()
+        self.image = pygame.transform.scale(self.image, (constantes.ENEMIGO, constantes.ENEMIGO))
+        self.size = self.image.get_width()
+
+    def draw(self, ventana):
+        ventana.blit(self.image, (self.x, self.y))
+
+

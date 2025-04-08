@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana">
-      <change afterPath="$PROJECT_DIR$/Game/elementos.py" afterDir="false" />
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="CREACION DE COLICION">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/mundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/mundo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/personaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/personaje.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/constantes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/elementos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/elementos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,25 +22,55 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kennermeza&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BRYANGC59/First_game.git&quot;,
+    &quot;accountId&quot;: &quot;9c57e372-e374-4da8-a082-0b442a8b7fa7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vNalgYbDov7BTj8dw5onSDc9DL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.juego.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.juego.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;import__images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kenner/Downloads/car-rental-challenge/First_game/Game/recursos/imagenes/personajes&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\Game\recursos\imagenes\personajes" />
+      <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\Game\recursos\imagenes\objetos" />
+      <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\recursos\imagenes\personajes" />
+      <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\recursos\imagenes\objetos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\Game" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="juego" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Game_proyecto_poo" />
@@ -74,7 +103,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -159,8 +188,87 @@
       <option name="project" value="LOCAL" />
       <updated>1743993442836</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="creacion de carpetas recursos /  imagenes / personaes">
+      <option name="closed" value="true" />
+      <created>1744000891936</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744000891936</updated>
+    </task>
+    <task id="LOCAL-00011" summary="primer personaje: caballeros">
+      <option name="closed" value="true" />
+      <created>1744004580486</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744004580486</updated>
+    </task>
+    <task id="LOCAL-00012" summary="insertar fondo">
+      <option name="closed" value="true" />
+      <created>1744011527500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744011527500</updated>
+    </task>
+    <task id="LOCAL-00013" summary="creacion de enemigo">
+      <option name="closed" value="true" />
+      <created>1744012974163</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744012974163</updated>
+    </task>
+    <task id="LOCAL-00014" summary="creacion de enemigo">
+      <option name="closed" value="true" />
+      <created>1744013530368</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744013530368</updated>
+    </task>
+    <task id="LOCAL-00015" summary="INSERTAR ROCA">
+      <option name="closed" value="true" />
+      <created>1744059251441</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744059251441</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CREACION DE COLICION">
+      <option name="closed" value="true" />
+      <created>1744071573699</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744071573699</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="import_images" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de ambiente" />
@@ -172,6 +280,13 @@
     <MESSAGE value="dibujando el mundo y el personaje en la variable ventana" />
     <MESSAGE value="movimientos del personaje en la ventana" />
     <MESSAGE value="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana" />
+    <MESSAGE value="Creacion del archivo elementos.py&#10;y clase enemigos" />
+    <MESSAGE value="creacion de carpetas recursos /  imagenes / personaes" />
+    <MESSAGE value="primer personaje: caballeros" />
+    <MESSAGE value="insertar fondo" />
+    <MESSAGE value="creacion de enemigo" />
+    <MESSAGE value="INSERTAR ROCA" />
+    <MESSAGE value="CREACION DE COLICION" />
+    <option name="LAST_COMMIT_MESSAGE" value="CREACION DE COLICION" />
   </component>
 </project>
