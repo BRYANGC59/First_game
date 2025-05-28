@@ -38,7 +38,14 @@ class Personaje:
         return (x < objeto.x + objeto.size and x + self.size > objeto.x and y < objeto.y + objeto.size and
                 y + self.size > objeto.y)
 
+    def esta_cerca(self, obj):
+        return (abs(self.x - obj.x) <= max(self.size, obj.size) and
+                abs(self.y - obj.y) <= max(self.size, obj.size))
 
+    def interactuar(self, world):
+        for enemigo in world.enemigo:
+            if self.esta_cerca(enemigo):
+                print('Esta cerca de un enemigo')
 
 
 

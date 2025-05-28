@@ -21,6 +21,9 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_e:
+                    personaje.interactuar(mundo)
 
         keys = pygame.key.get_pressed()
         if keys[pygame.K_LEFT]:
