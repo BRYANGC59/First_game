@@ -11,7 +11,7 @@ class Personaje:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        self.inventario = {"Gemas": 0}
+        self.inventario = {"GEMAS": 0}
         imagen_path = os.path.join("recursos", "imagenes", "personajes", "caballero.png")
         self.imagen = pygame.image.load(imagen_path).convert_alpha()
         self.imagen = pygame.transform.scale(self.imagen, (constantes.PERSONAJE, constantes.PERSONAJE))

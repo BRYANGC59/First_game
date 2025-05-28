@@ -37,6 +37,8 @@ def main():
 
         mundo.draw(ventana)
         personaje.draw(ventana)
+        mundo.draw_inventario(ventana, personaje)
+
         pygame.display.flip()
         clock.tick(60)
 

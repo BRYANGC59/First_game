@@ -22,6 +22,12 @@ class Enemigo:
     def draw(self, ventana):
         ventana.blit(self.image, (self.x, self.y))
 
+    def soltar_gemas(self):
+        if self.gemas > 0:
+            self.gemas -= 1
+            return True
+        return False
+
 class Roca:
     def __init__(self, x, y):
         self.x = x

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="CREACION DE COLICION">
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="metodos esta_cerca e interactuar para poder recoger objetos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/juego.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/juego.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/personaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/personaje.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/mundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/mundo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744071573699</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="metodos esta_cerca e interactuar para poder recoger objetos">
+      <option name="closed" value="true" />
+      <created>1748407243577</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748407243577</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +296,7 @@
     <MESSAGE value="creacion de enemigo" />
     <MESSAGE value="INSERTAR ROCA" />
     <MESSAGE value="CREACION DE COLICION" />
-    <option name="LAST_COMMIT_MESSAGE" value="CREACION DE COLICION" />
+    <MESSAGE value="metodos esta_cerca e interactuar para poder recoger objetos" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodos esta_cerca e interactuar para poder recoger objetos" />
   </component>
 </project>

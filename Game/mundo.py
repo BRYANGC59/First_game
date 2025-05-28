@@ -36,3 +36,9 @@ class Mundo:
 
         for Roca in self.Roca:
             Roca.draw(ventana)
+
+    def draw_inventario(self, pantalla, personaje):
+        font = pygame.font.Font(None, 36)
+        contador = font.render(f"GEMAS: {personaje.inventario['GEMAS']}", True, constantes.WHITE)
+
+        pantalla.blit(contador, (10,10))
