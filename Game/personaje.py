@@ -1,10 +1,7 @@
 import pygame
-
 import constantes
-
 import os
 
-from Game.elementos import Enemigo
 
 
 class Personaje:
@@ -16,6 +13,14 @@ class Personaje:
         self.imagen = pygame.image.load(imagen_path).convert_alpha()
         self.imagen = pygame.transform.scale(self.imagen, (constantes.PERSONAJE, constantes.PERSONAJE))
         self.size = self.imagen.get_width()
+        self.item_imagenes = {
+            'GEMAS': self.cargar_archivo_imagen('gemas.png')
+        }
+
+    def cargar_archivo_imagen(self, nombre_archivo):
+        path = os.path.join('recursos', 'imagenes', 'objetos', nombre_archivo)
+        imagen = pygame.image.load(path).convert_alpha()
+        return pygame.transform.scale(imagen, (40,40))
 
     def draw(self, ventana):
         ventana.blit(self.imagen, (self.x, self.y))
@@ -52,7 +57,9 @@ class Personaje:
                         mundo.enemigo.remove(enemigo)
                 return
 
-
-
+    def draw_inventario(self, ventana):
+        backgrounds = pygame.Surface((constantes.ANCHO, constantes.ALTO), pygame.SRCALPHA)
+        backgrounds.fill((0,0,0,128))
+        ventana.blit(backgrounds, (0,0))
 
 

@@ -40,7 +40,7 @@ def main():
 
         mundo.draw(ventana)
         personaje.draw(ventana)
-        if mostrar_inventario == True:
+        if mostrar_inventario:
             personaje.draw_inventario(ventana)
         else:
             mundo.draw_inventario(ventana, personaje)
