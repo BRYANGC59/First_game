@@ -62,4 +62,9 @@ class Personaje:
         backgrounds.fill((0,0,0,128))
         ventana.blit(backgrounds, (0,0))
 
+        font = pygame.font.Font(None, 36)
+        titulo = font.render('Inventario', True, constantes.WHITE)
+        ventana.blit(titulo, (constantes.ANCHO // 2 - titulo.get_width() // 2, 20))
+
+        item_font = pygame.
 
