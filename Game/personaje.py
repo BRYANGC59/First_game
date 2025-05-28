@@ -24,8 +24,8 @@ class Personaje:
         new_x = self.x + dx
         new_y = self.y + dy
 
-        for Enemigo in mundo.enemigo:
-            if self.comprobar_colision(new_x, new_y, Enemigo):
+        for enemigo in mundo.enemigo:
+            if self.comprobar_colision(new_x, new_y, enemigo):
                 return
 
         self.x = new_x
@@ -42,10 +42,16 @@ class Personaje:
         return (abs(self.x - obj.x) <= max(self.size, obj.size) and
                 abs(self.y - obj.y) <= max(self.size, obj.size))
 
-    def interactuar(self, world):
-        for enemigo in world.enemigo:
+
+    def interactuar(self, mundo):
+        for enemigo in mundo.enemigo:
             if self.esta_cerca(enemigo):
-                print('Esta cerca de un enemigo')
+                if enemigo.soltar_gemas():
+                    self.inventario['GEMAS'] += 1
+                    if enemigo.gemas == 0:
+                        mundo.enemigo.remove(enemigo)
+                return
+
 
 
 

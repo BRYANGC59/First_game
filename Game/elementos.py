@@ -14,8 +14,8 @@ class Enemigo:
         self.y = y
         self.gemas = random.randint(1,3)
 
-        Enemigo = os.path.join("recursos", "imagenes", "personajes", "echisera.png")
-        self.image = pygame.image.load(Enemigo).convert_alpha()
+        enemigo = os.path.join("recursos", "imagenes", "personajes", "echisera.png")
+        self.image = pygame.image.load(enemigo).convert_alpha()
         self.image = pygame.transform.scale(self.image, (constantes.ENEMIGO, constantes.ENEMIGO))
         self.size = self.image.get_width()
 
