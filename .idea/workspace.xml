@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="Contador de gemas en pantalla y metodo soltar_gemas en la clase Enemigo">
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="completacion de metodo interactuar para que elimine los enemigos y los sume al contador">
+      <change afterPath="$PROJECT_DIR$/Game/recursos/imagenes/objetos/gema-removebg-preview.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/elementos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/elementos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/juego.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/juego.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/personaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/personaje.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748407974615</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="completacion de metodo interactuar para que elimine los enemigos y los sume al contador">
+      <option name="closed" value="true" />
+      <created>1748408783133</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1748408783133</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,6 +315,7 @@
     <MESSAGE value="CREACION DE COLICION" />
     <MESSAGE value="metodos esta_cerca e interactuar para poder recoger objetos" />
     <MESSAGE value="Contador de gemas en pantalla y metodo soltar_gemas en la clase Enemigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contador de gemas en pantalla y metodo soltar_gemas en la clase Enemigo" />
+    <MESSAGE value="completacion de metodo interactuar para que elimine los enemigos y los sume al contador" />
+    <option name="LAST_COMMIT_MESSAGE" value="completacion de metodo interactuar para que elimine los enemigos y los sume al contador" />
   </component>
 </project>

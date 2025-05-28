@@ -15,6 +15,7 @@ def main():
     clock = pygame.time.Clock()
     mundo = Mundo(constantes.ANCHO, constantes.ALTO)
     personaje = Personaje(constantes.ANCHO // 2, constantes.ALTO // 2)
+    mostrar_inventario = False
 
     while True:
         for event in pygame.event.get():
@@ -24,6 +25,8 @@ def main():
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_e:
                     personaje.interactuar(mundo)
+                if event.type == pygame.K_i:
+                    mostrar_inventario = not mostrar_inventario
 
         keys = pygame.key.get_pressed()
         if keys[pygame.K_LEFT]:
@@ -37,7 +40,10 @@ def main():
 
         mundo.draw(ventana)
         personaje.draw(ventana)
-        mundo.draw_inventario(ventana, personaje)
+        if mostrar_inventario == True:
+            personaje.draw_inventario(ventana)
+        else:
+            mundo.draw_inventario(ventana, personaje)
 
         pygame.display.flip()
         clock.tick(60)

@@ -39,8 +39,8 @@ class Personaje:
                 y + self.size > objeto.y)
 
     def esta_cerca(self, obj):
-        return (abs(self.x - obj.x) <= max(self.size, obj.size) and
-                abs(self.y - obj.y) <= max(self.size, obj.size))
+        return (abs(self.x - obj.x) <= max(self.size, obj.size +5 and
+                abs(self.y - obj.y) <= max(self.size, obj.size)+5))
 
 
     def interactuar(self, mundo):
