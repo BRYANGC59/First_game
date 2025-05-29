@@ -14,18 +14,9 @@ class Enemigo:
         if self.vida < 0:
             self.vida = 0
 
-class Roca:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-        self.roca = 1
+    def esta_vivo(self):
+        return self.vida > 0
 
-        roca_paht = os.path.join("recursos", "imagenes", "personajes", "roca.png")
-        self.image = pygame.image.load(roca_paht).convert_alpha()
-        self.image = pygame.transform.scale(self.image, (constantes.ENEMIGO, constantes.ENEMIGO))
-        self.size = self.image.get_width()
 
-    def draw(self, ventana):
-        ventana.blit(self.image, (self.x, self.y))
 
 
