@@ -1,9 +1,3 @@
-import pygame
-from Extras import constantes
-import os
-
-
-
 class Jugador:
     def __init__(self, nombre):
         self.nombre = nombre

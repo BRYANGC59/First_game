@@ -1,18 +1,10 @@
 import random
 
-import pygame
-
-from Extras import constantes
-
-import os
-
-
-
 class Enemigo:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-        self.gemas = random.randint(1,3)
+    def __init__(self, nombre, vida, daño):
+        self.nombre = nombre
+        self.vida = vida
+        self.daño = daño
 
         enemigo = os.path.join("recursos", "imagenes", "personajes", "echisera.png")
         self.image = pygame.image.load(enemigo).convert_alpha()
