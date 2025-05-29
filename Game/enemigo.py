@@ -27,4 +27,4 @@ class Enemigo_de_hielo(Enemigo):
 
 class Enemigo_de_oscuridad(Enemigo):
     def __init__(self):
-        super().__init__("Sombra Tenebrosa", random.randint(30, 50), random.randint(5, 15))
+        super().__init__("Shadow", random.randint(30, 50), random.randint(5, 15))
