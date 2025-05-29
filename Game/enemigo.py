@@ -9,11 +9,10 @@ class Enemigo:
     def atacar(self, jugador):
         jugador.recibir_dano(self.daño)
 
-    def soltar_gemas(self):
-        if self.gemas > 0:
-            self.gemas -= 1
-            return True
-        return False
+    def recibir_dano(self, cantidad):
+        self.vida -= cantidad
+        if self.vida < 0:
+            self.vida = 0
 
 class Roca:
     def __init__(self, x, y):
