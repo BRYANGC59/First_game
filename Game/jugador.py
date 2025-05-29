@@ -8,8 +8,14 @@ class Jugador:
         self.estrellas = 0
 
     def atacar(self, enemigo):
-        daño = 10
-        enemigo.recibir_dano(daño)
+        danos = {
+            "Espada de madera": 10,
+            "Espada de hierro": 20,
+            "Hacha": 25,
+            "Lanza": 30
+        }
+        dano = danos.get(self.arma, 10)
+        enemigo.recibir_dano(dano)
 
     def recibir_dano(self, cantidad):
         self.vida -= cantidad

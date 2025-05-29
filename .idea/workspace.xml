@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="cambios en el main, input para ingresar el nombre del jugador">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/main.py" afterDir="false" />
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="funcion atacar">
+      <change beforePath="$PROJECT_DIR$/Game/jugador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/jugador.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748525322535</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="funcion atacar">
+      <option name="closed" value="true" />
+      <created>1748526032563</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1748526032563</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="primer personaje: caballeros" />
     <MESSAGE value="insertar fondo" />
     <MESSAGE value="creacion de enemigo" />
     <MESSAGE value="INSERTAR ROCA" />
@@ -475,6 +481,7 @@
     <MESSAGE value="clase Mejora" />
     <MESSAGE value="funcion obtener_mejora_aleatoria" />
     <MESSAGE value="cambios en el main, input para ingresar el nombre del jugador" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios en el main, input para ingresar el nombre del jugador" />
+    <MESSAGE value="funcion atacar" />
+    <option name="LAST_COMMIT_MESSAGE" value="funcion atacar" />
   </component>
 </project>
