@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="funcion obtener_mejora_aleatoria">
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="cambios en el main, input para ingresar el nombre del jugador">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extras/constantes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extras/mundo.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -417,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748496371305</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="cambios en el main, input para ingresar el nombre del jugador">
+      <option name="closed" value="true" />
+      <created>1748525322535</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1748525322535</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creacion de carpetas recursos /  imagenes / personaes" />
     <MESSAGE value="primer personaje: caballeros" />
     <MESSAGE value="insertar fondo" />
     <MESSAGE value="creacion de enemigo" />
@@ -469,6 +474,7 @@
     <MESSAGE value="clase Enemigo_de_oscuridad" />
     <MESSAGE value="clase Mejora" />
     <MESSAGE value="funcion obtener_mejora_aleatoria" />
-    <option name="LAST_COMMIT_MESSAGE" value="funcion obtener_mejora_aleatoria" />
+    <MESSAGE value="cambios en el main, input para ingresar el nombre del jugador" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios en el main, input para ingresar el nombre del jugador" />
   </component>
 </project>
