@@ -1,9 +1,9 @@
 import sys
 
 import pygame
-import constantes
-from mundo import Mundo
-from personaje import Personaje
+from Extras import constantes
+from Extras.mundo import Mundo
+from jugador import Personaje
 
 #Inicializar el juego
 pygame.init()

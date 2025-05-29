@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="metodo draw_inventario">
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="continuacion metodo draw_inventario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +33,12 @@
     &quot;assignee&quot;: &quot;kennermeza&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BRYANGC59/First_game.git",
-    "accountId": "096115ba-7261-41c0-9876-0b7b22ee6ba8"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BRYANGC59/First_game.git&quot;,
+    &quot;accountId&quot;: &quot;096115ba-7261-41c0-9876-0b7b22ee6ba8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -48,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.juego.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kenner/Downloads/car-rental-challenge/First_game/Game/recursos/imagenes/personajes",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.juego.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kenner/Downloads/car-rental-challenge/First_game/Game/recursos/imagenes/personajes&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kenner\Downloads\car-rental-challenge\First_game\Game\recursos\imagenes\personajes" />
@@ -284,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748411390909</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="continuacion metodo draw_inventario">
+      <option name="closed" value="true" />
+      <created>1748412244693</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1748412244693</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +340,7 @@
     <MESSAGE value="completacion de metodo interactuar para que elimine los enemigos y los sume al contador" />
     <MESSAGE value="Boton i para abrir o cerrar inventario" />
     <MESSAGE value="metodo draw_inventario" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo draw_inventario" />
+    <MESSAGE value="continuacion metodo draw_inventario" />
+    <option name="LAST_COMMIT_MESSAGE" value="continuacion metodo draw_inventario" />
   </component>
 </project>

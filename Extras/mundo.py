@@ -3,9 +3,8 @@ import random
 
 import pygame
 
-
-import constantes
-from elementos import Enemigo, Roca
+from Extras import constantes
+from enemigos import Enemigo, Roca
 
 
 class Mundo:
@@ -15,10 +14,10 @@ class Mundo:
         self.enemigo = [Enemigo(random.randint(0, ancho-40),
                                 random.randint(0, alto-40)) for _ in range(10)]
         self.Roca = [Roca(random.randint(0, ancho - constantes.ROCA),
-                                random.randint(0, alto - constantes.ROCA)) for _ in range(11)]
+                          random.randint(0, alto - constantes.ROCA)) for _ in range(11)]
 
 
-        cesped_path = os.path.join("recursos", "imagenes", "personajes", "fondo4.png")
+        cesped_path = os.path.join("../Game/recursos", "imagenes", "personajes", "fondo4.png")
         self.cesped_image = pygame.image.load(cesped_path).convert()
         self.cesped_image = pygame.transform.scale(self.cesped_image,
                                                    (constantes.CESPED, constantes.CESPED))
@@ -26,8 +25,8 @@ class Mundo:
 
 
     def draw(self, ventana):
-        for y in range(0, self.alto,constantes.CESPED,):
-            for x in range(0, self.ancho, constantes.CESPED,):
+        for y in range(0, self.alto, constantes.CESPED, ):
+            for x in range(0, self.ancho, constantes.CESPED, ):
                 ventana.blit(self.cesped_image, (x, y))
 
 
