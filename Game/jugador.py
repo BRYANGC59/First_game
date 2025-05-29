@@ -17,8 +17,10 @@ class Jugador:
         daño = 10
         enemigo.recibir_dano(daño)
 
-    def draw(self, ventana):
-        ventana.blit(self.imagen, (self.x, self.y))
+    def recibir_dano(self, cantidad):
+        self.vida -= cantidad
+        if self.vida < 0:
+            self.vida = 0
 
     def movimientos(self, dx, dy, mundo):
         new_x = self.x + dx
