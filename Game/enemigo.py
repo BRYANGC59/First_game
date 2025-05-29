@@ -6,13 +6,8 @@ class Enemigo:
         self.vida = vida
         self.daño = daño
 
-        enemigo = os.path.join("recursos", "imagenes", "personajes", "echisera.png")
-        self.image = pygame.image.load(enemigo).convert_alpha()
-        self.image = pygame.transform.scale(self.image, (constantes.ENEMIGO, constantes.ENEMIGO))
-        self.size = self.image.get_width()
-
-    def draw(self, ventana):
-        ventana.blit(self.image, (self.x, self.y))
+    def atacar(self, jugador):
+        jugador.recibir_dano(self.daño)
 
     def soltar_gemas(self):
         if self.gemas > 0:
