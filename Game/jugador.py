@@ -13,11 +13,9 @@ class Jugador:
         self.inventario = []
         self.estrellas = 0
 
-
-    def cargar_archivo_imagen(self, nombre_archivo):
-        path = os.path.join('recursos', 'imagenes', 'objetos', nombre_archivo)
-        imagen = pygame.image.load(path).convert_alpha()
-        return pygame.transform.scale(imagen, (40,40))
+    def atacar(self, enemigo):
+        daño = 10
+        enemigo.recibir_dano(daño)
 
     def draw(self, ventana):
         ventana.blit(self.imagen, (self.x, self.y))
