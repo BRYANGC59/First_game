@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="metodo esta vivo">
-      <change beforePath="$PROJECT_DIR$/Game/enemigo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/enemigo.py" afterDir="false" />
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="funcion obtener_mejora_aleatoria">
+      <change beforePath="$PROJECT_DIR$/Game/mejoras.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/mejoras.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +373,39 @@
       <option name="project" value="LOCAL" />
       <updated>1748495611778</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="clase Enemigo_de_fuego">
+      <option name="closed" value="true" />
+      <created>1748495713951</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1748495713951</updated>
+    </task>
+    <task id="LOCAL-00034" summary="clase Enemigo_de_hielo">
+      <option name="closed" value="true" />
+      <created>1748495731787</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1748495731787</updated>
+    </task>
+    <task id="LOCAL-00035" summary="clase Enemigo_de_oscuridad">
+      <option name="closed" value="true" />
+      <created>1748495763454</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1748495763454</updated>
+    </task>
+    <task id="LOCAL-00036" summary="clase Mejora">
+      <option name="closed" value="true" />
+      <created>1748495817415</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1748495817415</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,10 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="completacion del metodo main, se le añadio el ciclo principal" />
-    <MESSAGE value="dibujando el mundo y el personaje en la variable ventana" />
-    <MESSAGE value="movimientos del personaje en la ventana" />
-    <MESSAGE value="agregar limites a movimientos del personaje para que no se salga del recuadro de la ventana" />
     <MESSAGE value="Creacion del archivo elementos.py&#10;y clase enemigos" />
     <MESSAGE value="creacion de carpetas recursos /  imagenes / personaes" />
     <MESSAGE value="primer personaje: caballeros" />
@@ -425,6 +453,10 @@
     <MESSAGE value="metodo atacar" />
     <MESSAGE value="metodo recibir daño" />
     <MESSAGE value="metodo esta vivo" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo esta vivo" />
+    <MESSAGE value="clase Enemigo_de_fuego" />
+    <MESSAGE value="clase Enemigo_de_hielo" />
+    <MESSAGE value="clase Enemigo_de_oscuridad" />
+    <MESSAGE value="clase Mejora" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase Mejora" />
   </component>
 </project>
