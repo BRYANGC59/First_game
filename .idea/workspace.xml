@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="funcion atacar">
-      <change beforePath="$PROJECT_DIR$/Game/jugador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/jugador.py" afterDir="false" />
-    </list>
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="main con la funcion registrar y atacar enemigo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -430,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748526032563</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="main con la funcion registrar y atacar enemigo">
+      <option name="closed" value="true" />
+      <created>1748526496222</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1748526496222</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -457,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="insertar fondo" />
     <MESSAGE value="creacion de enemigo" />
     <MESSAGE value="INSERTAR ROCA" />
     <MESSAGE value="CREACION DE COLICION" />
@@ -482,6 +487,7 @@
     <MESSAGE value="funcion obtener_mejora_aleatoria" />
     <MESSAGE value="cambios en el main, input para ingresar el nombre del jugador" />
     <MESSAGE value="funcion atacar" />
-    <option name="LAST_COMMIT_MESSAGE" value="funcion atacar" />
+    <MESSAGE value="main con la funcion registrar y atacar enemigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="main con la funcion registrar y atacar enemigo" />
   </component>
 </project>

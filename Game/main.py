@@ -20,14 +20,16 @@ fase = "registro"
 nombre_input = ""
 mensaje = ""
 
+# Jugador visual (posición del rectángulo)
 jugador_pos = pygame.Rect(150, 300, 80, 100)
 enemigo_pos = pygame.Rect(550, 300, 80, 100)
+velocidad = 5
 
 jugador = None
 enemigo = None
 
-juego = True
-while juego:
+corriendo = True
+while corriendo:
     pantalla.fill(NEGRO)
 
     for evento in pygame.event.get():
@@ -51,18 +53,24 @@ while juego:
                 mensaje = f"{jugador.nombre} ataca a {enemigo.nombre}!"
                 if enemigo.esta_vivo():
                     enemigo.atacar(jugador)
-                    mensaje += f" {enemigo.nombre} contraataca"
+                    mensaje += f" {enemigo.nombre} contraataca!"
+
+    if fase == "combate":
+        teclas = pygame.key.get_pressed()
+        if teclas[pygame.K_LEFT] or teclas[pygame.K_a]:
+            jugador_pos.x -= velocidad
+        if teclas[pygame.K_RIGHT] or teclas[pygame.K_d]:
+            jugador_pos.x += velocidad
+        jugador_pos.x = max(0, min(ANCHO - jugador_pos.width, jugador_pos.x))
 
     if fase == "registro":
-        texto = fuente.render("Ingresa tu nombre y presiona ENTER:", True, BLANCO)
-        input_box = fuente.render(nombre_input, True, AZUL)
-        pantalla.blit(texto, (100, 200))
-        pantalla.blit(input_box, (100, 250))
+        pantalla.blit(fuente.render("Ingresa tu nombre y presiona ENTER:", True, BLANCO), (100, 200))
+        pantalla.blit(fuente.render(nombre_input, True, AZUL), (100, 250))
 
+    # FASE COMBATE
     elif fase == "combate":
         pygame.draw.rect(pantalla, AZUL, jugador_pos)
         pygame.draw.rect(pantalla, ROJO, enemigo_pos)
-
         pantalla.blit(fuente.render(f"{jugador.nombre}", True, BLANCO), (jugador_pos.x, jugador_pos.y - 30))
         pantalla.blit(fuente.render(f"{enemigo.nombre}", True, BLANCO), (enemigo_pos.x, enemigo_pos.y - 30))
         pantalla.blit(fuente.render(f"Vida: {jugador.vida}", True, AZUL), (jugador_pos.x, jugador_pos.y + 110))
@@ -80,3 +88,4 @@ while juego:
     clock.tick(30)
 
 pygame.quit()
+
