@@ -4,18 +4,15 @@ import os
 
 
 
-class Personaje:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-        self.inventario = {"GEMAS": 0}
-        imagen_path = os.path.join("recursos", "imagenes", "personajes", "caballero.png")
-        self.imagen = pygame.image.load(imagen_path).convert_alpha()
-        self.imagen = pygame.transform.scale(self.imagen, (constantes.PERSONAJE, constantes.PERSONAJE))
-        self.size = self.imagen.get_width()
-        self.item_imagenes = {
-            'GEMAS': self.cargar_archivo_imagen('gemas.png')
-        }
+class Jugador:
+    def __init__(self, nombre):
+        self.nombre = nombre
+        self.vida = 100
+        self.arma = "Espada de madera"
+        self.armadura = "Armadura de cuero"
+        self.inventario = []
+        self.estrellas = 0
+
 
     def cargar_archivo_imagen(self, nombre_archivo):
         path = os.path.join('recursos', 'imagenes', 'objetos', nombre_archivo)

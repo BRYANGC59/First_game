@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="continuacion metodo draw_inventario">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="Modularizacion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +70,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="juego" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Game_proyecto_poo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game/juego.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\BRYANGC\PycharmProjects\First_game\Game\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.juego" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748412244693</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Modularizacion">
+      <option name="closed" value="true" />
+      <created>1748494957678</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1748494957678</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,6 +347,7 @@
     <MESSAGE value="Boton i para abrir o cerrar inventario" />
     <MESSAGE value="metodo draw_inventario" />
     <MESSAGE value="continuacion metodo draw_inventario" />
-    <option name="LAST_COMMIT_MESSAGE" value="continuacion metodo draw_inventario" />
+    <MESSAGE value="Modularizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modularizacion" />
   </component>
 </project>
