@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="metodo esta_vivo y reiniciar">
-      <change beforePath="$PROJECT_DIR$/Game/enemigos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/enemigos.py" afterDir="false" />
+    <list default="true" id="2bef3709-609c-4ad2-ad5a-80c73da0ad84" name="Changes" comment="metodo esta vivo">
+      <change beforePath="$PROJECT_DIR$/Game/enemigo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/enemigo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +341,39 @@
       <option name="project" value="LOCAL" />
       <updated>1748495360126</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="cambio clase Enemigo">
+      <option name="closed" value="true" />
+      <created>1748495458307</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1748495458307</updated>
+    </task>
+    <task id="LOCAL-00030" summary="metodo atacar">
+      <option name="closed" value="true" />
+      <created>1748495549246</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1748495549246</updated>
+    </task>
+    <task id="LOCAL-00031" summary="metodo recibir daño">
+      <option name="closed" value="true" />
+      <created>1748495579711</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1748495579711</updated>
+    </task>
+    <task id="LOCAL-00032" summary="metodo esta vivo">
+      <option name="closed" value="true" />
+      <created>1748495611778</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1748495611778</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,8 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creacion de archivo mundo&#10;con su pantalla" />
-    <MESSAGE value="Metodo main en archivo juego" />
     <MESSAGE value="completacion del metodo main, se le añadio el ciclo principal" />
     <MESSAGE value="dibujando el mundo y el personaje en la variable ventana" />
     <MESSAGE value="movimientos del personaje en la ventana" />
@@ -389,10 +419,12 @@
     <MESSAGE value="continuacion metodo draw_inventario" />
     <MESSAGE value="Modularizacion" />
     <MESSAGE value="Cambio clase Personaje por jugador" />
-    <MESSAGE value="metodo atacar" />
-    <MESSAGE value="metodo recibir daño" />
     <MESSAGE value="metodo recoger_mejora" />
     <MESSAGE value="metodo esta_vivo y reiniciar" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo esta_vivo y reiniciar" />
+    <MESSAGE value="cambio clase Enemigo" />
+    <MESSAGE value="metodo atacar" />
+    <MESSAGE value="metodo recibir daño" />
+    <MESSAGE value="metodo esta vivo" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo esta vivo" />
   </component>
 </project>
