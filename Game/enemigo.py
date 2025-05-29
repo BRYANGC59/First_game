@@ -21,6 +21,10 @@ class Enemigo_de_fuego(Enemigo):
     def __init__(self):
         super().__init__("Demonio de Fuego", random.randint(30, 50), random.randint(5, 15))
 
-class EnemigoHielo(Enemigo):
+class Enemigo_de_hielo(Enemigo):
     def __init__(self):
         super().__init__("Bestia de Hielo", random.randint(30, 50), random.randint(5, 15))
+
+class Enemigo_de_oscuridad(Enemigo):
+    def __init__(self):
+        super().__init__("Sombra Tenebrosa", random.randint(30, 50), random.randint(5, 15))
