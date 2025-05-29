@@ -22,18 +22,13 @@ class Jugador:
         if self.vida < 0:
             self.vida = 0
 
-    def movimientos(self, dx, dy, mundo):
-        new_x = self.x + dx
-        new_y = self.y + dy
-
-        for enemigo in mundo.enemigo:
-            if self.comprobar_colision(new_x, new_y, enemigo):
-                return
-
-        self.x = new_x
-        self.y = new_y
-        self.x = max(0, min(self.x, constantes.ANCHO - self.size))
-        self.y = max(0, min(self.y, constantes.ALTO - self.size))
+    def recoger_mejora(self, mejora):
+        if mejora.tipo == "arma":
+            self.arma = mejora.valor
+        elif mejora.tipo == "armadura":
+            self.armadura = mejora.valor
+        elif mejora.tipo == "habilidad":
+            self.inventario.append(mejora.valor)
 
 
     def comprobar_colision(self, x, y, objeto):
